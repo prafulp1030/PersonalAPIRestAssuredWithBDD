@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "fullName": {
+      "type": "string"
+    },
+    "education": {
+      "type": "object",
+      "properties": {
+        "graduation": {
+          "type": "string"
+        },
+        "postGraduation": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "graduation",
+        "postGraduation"
+      ]
+    },
+    "dob": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "integer"
+        },
+        "month": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "date",
+        "month",
+        "year"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "properties": {
+        "country": {
+          "type": "string"
+        },
+        "permanentAddress": {
+          "type": "object",
+          "properties": {
+            "pincode": {
+              "type": "integer"
+            },
+            "state": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "pincode",
+            "state",
+            "city"
+          ]
+        },
+        "currentAddress": {
+          "type": "object",
+          "properties": {
+            "pincode": {
+              "type": "integer"
+            },
+            "state": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "pincode",
+            "state",
+            "city"
+          ]
+        }
+      },
+      "required": [
+        "country",
+        "permanentAddress",
+        "currentAddress"
+      ]
+    },
+    "gender": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "fullName",
+    "education",
+    "dob",
+    "address",
+    "gender"
+  ]
+}

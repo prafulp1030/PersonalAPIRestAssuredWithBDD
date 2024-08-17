@@ -1,0 +1,66 @@
+{
+	"createUser": 
+	{
+		"fullName": "Pooja Shinde",
+		"education": 
+		{
+			"graduation": "B.TECH",
+			"postGraduation": "M.Tech"
+		},
+		"dob": 
+		{
+			"date": 20,
+			"month": "Mar",
+			"year": 2000
+		},
+		"address": 
+		{
+			"country": "INDIA",
+			"permanentAddress": 
+			{
+				"pincode": 112233,
+				"state": "MH",
+				"city": "Pune"
+			},
+			"currentAddress": 
+			{
+				"pincode": 223344,
+				"state": "MH",
+				"city": "Mumbai"
+			}
+		},
+		"gender": false
+	},
+	"updateUser": 
+		{
+			"fullName": "Rahul Patil",
+			"education": 
+			{
+				"graduation": "B.TECH",
+				"postGraduation": "M.Tech"
+			},
+			"dob": 
+			{
+				"date": 25,
+				"month": "Dec",
+				"year": 2014
+			},
+			"address": 
+			{
+				"country": "IN",
+				"permanentAddress": 
+				{
+					"pincode": 889900,
+					"state": "MH",
+					"city": "Delhi"
+				},
+				"currentAddress": 
+				{
+					"pincode": 778899,
+					"state": "MH",
+					"city": "Mumbai"
+				}
+			},
+			"gender": true
+		}
+}
